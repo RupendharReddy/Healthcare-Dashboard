@@ -1,0 +1,52 @@
+.activity-feed {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+  margin-top: 1rem;
+}
+
+.bar-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bar {
+  width: 12px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  transition: height 0.3s ease-in-out;
+}
+
+.label {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}

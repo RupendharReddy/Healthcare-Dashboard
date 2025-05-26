@@ -1,0 +1,48 @@
+.anatomy-section {
+  position: relative;
+  /* width: ; */
+  height: 400px;
+  /* background-color: white; */
+  /* background-color: #f0f4ff; */
+  /* background-color: red; */
+  /* background-color: #f0f4ff; */
+  border-radius: 20px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+  padding: 0px 0px 0px 1rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.anatomy-image {
+  width: 90%;
+  height: 100%;
+  border-radius: 15px;
+  /* background-color: #f0f4ff; */
+  background-color: hsl(213.33deg 100% 98.24%);
+  border: none;
+  margin: 0;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.marker {
+  position: absolute;
+  padding: 0.5rem 0.9rem;
+  border-radius: 10px;
+  font-size: 13px;
+  color: white;
+  white-space: nowrap;
+}
+
+.marker.healthy {
+  /* background-color: #00c8ff; */
+  background-color: hsl(183.53deg 99.17% 47.06%);
+
+}
+.marker.unhealthy {
+  background-color: #ff4d4f;
+}
+#marker-heart{
+  background-color: hsl(241.54deg 52.94% 43.33%);
+}

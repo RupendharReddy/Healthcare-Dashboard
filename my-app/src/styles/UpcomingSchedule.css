@@ -1,0 +1,30 @@
+.upcoming-schedule {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.day-group {
+  margin-bottom: 1.5rem;
+}
+
+.day-label {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: #111827;
+}
+
+.cards-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

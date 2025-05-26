@@ -1,0 +1,33 @@
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+  /* padding: 0 2rem 2rem 2rem; */
+  /* flex: 1; */
+}
+
+.overview-top,
+.overview-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+}
+.overview{
+  display: flex;
+  flex-direction: row;
+}
+.overview-header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color:hsl(241.54deg 52.94% 43.33%);
+  padding: 0px 10px 5px 10px;
+}
+
+.overview-left, 
+.overview-right {
+  /* gap: 2rem; */
+  width: 50%;
+  padding: 10px;
+}

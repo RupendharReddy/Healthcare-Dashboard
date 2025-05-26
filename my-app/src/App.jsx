@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './components/Header/Header'
+// import Header from './components/Header/Header'
 import Sidebar from './components/Sidebar/Sidebar'
 import DashboardMainContent from './components/Dashboard/DashboardMainContent'
 import './styles/global.css'
@@ -9,7 +9,7 @@ const App = () => {
     <div className="app-container">
       <Sidebar />
       <div className="main-area">
-        <Header />
+        {/* <Header /> */}
         <DashboardMainContent />
       </div>
     </div>
