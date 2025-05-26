@@ -25,11 +25,11 @@
   box-shadow : 0 0 20px 7px rgba(0, 0, 0, 0.05);
 }
 
-.header-icons {
+/* .header-icons {
   display: flex;
   align-items: center;
   gap: 20px;
-}
+} */
 
 .notification-btn{
   /* background-color: #f0f4ff; */
@@ -45,7 +45,7 @@
   width: 20px;
   height: 20px;
 }
-.add-btn {
+/* .add-btn {
   background-color: #f0f4ff;
   border: none;
   padding: 8px 12px;
@@ -64,4 +64,4 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-}
+} */

@@ -1,51 +1,135 @@
 .calendar-view {
-  background-color: white;
+  background-color: hsl(213.33deg 100% 98.24%);
   border-radius: 16px;
   padding: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   flex: 1;
+  color: hsl(241.54deg 52.94% 43.33%);
+  font-weight: 550;
+  margin-top: -10px;
+}
+
+.user-profile {
+  display: flex;
+  justify-self: end;
+  gap: 10px;
+}
+
+.user-profile img {
+  width: 30px;
+  height: 33px;
+  padding-top: 5px;
+  border-radius: 8px;
+  background-color:aqua;
+}
+.add-btn {
+  background-color: #f0f4ff;
+  border: none;
+  padding: 0px 5px 2px 5px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  background-color: hsl(241.54deg 52.94% 43.33%);
+  /* cursor: not-allowed; */
+}
+
+.calendar-header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .calendar-header h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .calendar-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  grid-template-columns: repeat(7, minmax(70px, 1fr));
   gap: 0.8rem;
   margin-bottom: 1.5rem;
 }
 
 .calendar-cell {
-  border: 1px solid #e5e7eb;
+  /* border: 1px solid #e5e7eb; */
   border-radius: 8px;
   padding: 0.5rem;
   text-align: center;
 }
 
+.day{
+  font-size: 12px;
+}
+
+#Tue{
+  /* border: 2px solid red; */
+    background-color: hsl(216.67deg 100% 96.47%);
+}
+#Sun{
+  color: hsl(241, 46%, 78%);
+}
 .calendar-cell .date {
-  font-weight: 500;
+  /* font-weight: 650; */
+  color: hsl(241.54deg 52.94% 43.33%);
+  font-size: 20px;
   margin-bottom: 0.4rem;
 }
 
-.slot {
-  font-size: 0.75rem;
-  background-color: #dbeafe;
+.slot , .marked{
+  font-size: 0.65rem;
+  /* background-color: #dbeafe; */
   padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  margin: 2px auto;
+  border-radius: 8px;
+  margin: 5px auto;
   width: fit-content;
 }
-
+#Tue .marked{
+  background-color: hsl(241.54deg 52.94% 43.33%);
+  color: #dad6d6;
+  padding: 0.2rem 0.6rem;
+}
+.marked{
+  color: #efecec;
+  background-color: hsl(236deg 37.82% 76.67%);
+}
+#Sat .marked{
+  
+}
+.dash{
+  /* height: 20px; */
+  /* width: 28px; */
+  /* margin-top:-12px; */
+  /* margin-bottom: 8px; */
+  /* padding-bottom: 20px; */
+  font-size: 13px;
+  opacity: 0.3;
+}
 .calendar-appointments {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.8rem;
 }
 
+.appt-details{
+  font-weight:700;
+}
+
+#dentist{
+  width: 40%;
+  padding: 20px;
+  border-radius:30px;
+  color: #ece8e8;
+  /* font-weight: 550; */
+    background-color: hsl(241.54deg 52.94% 43.33%);
+}
+#physio{
+  width: 60%;
+  padding: 20px;
+  border-radius:30px;
+  color: hsl(246deg 32.89% 29.8%);
+  background-color: hsl(230.4deg 64.1% 92.35%);
+}
 .appt-card {
   display: flex;
   align-items: center;
@@ -60,7 +144,10 @@
 }
 
 .appt-details .title {
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .appt-details .time {

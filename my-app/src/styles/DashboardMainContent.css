@@ -1,4 +1,5 @@
 .dashboard-main {
+  margin-left: 240px;
   display: flex;
   flex-direction: column;
   /* gap: 2rem; */
@@ -24,7 +25,9 @@
   color:hsl(241.54deg 52.94% 43.33%);
   padding: 0px 10px 5px 10px;
 }
-
+.overview-header h5{
+    color: hsl(242, 53%, 63%);
+}
 .overview-left, 
 .overview-right {
   /* gap: 2rem; */

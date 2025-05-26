@@ -32,17 +32,19 @@
   border-radius: 10px;
   font-size: 13px;
   color: white;
+  font-weight: 550;
   white-space: nowrap;
 }
 
 .marker.healthy {
   /* background-color: #00c8ff; */
   background-color: hsl(183.53deg 99.17% 47.06%);
-
+  color: hsl(242, 53%, 63%);
 }
 .marker.unhealthy {
   background-color: #ff4d4f;
 }
 #marker-heart{
   background-color: hsl(241.54deg 52.94% 43.33%);
+  color: #fff;
 }

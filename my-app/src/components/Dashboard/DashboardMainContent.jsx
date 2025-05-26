@@ -16,7 +16,10 @@ const DashboardMainContent = () => {
           <Header/>
           <div className="overview-header">
             <h2>Dashboard</h2>
-            <h5>This Week ↓</h5>
+            {/* <h5>This Week </h5> */}
+            <select style={{backgroundColor:"#fff", border:"none", color:"hsl(242, 53%, 63%)" , fontWeight:"550" ,cursor:"pointer"}} disabled>
+              <option>This Week </option>
+            </select>
           </div>
           <div className="overview-top">
             <AnatomySection />
@@ -26,7 +29,7 @@ const DashboardMainContent = () => {
         </div>
         <div className="overview-right">
           <CalendarView />
-          <UpcomingSchedule />
+          {/* <UpcomingSchedule /> */}
         </div>
       </div>
 

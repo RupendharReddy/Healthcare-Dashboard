@@ -1,15 +1,17 @@
 const appointmentCards = [
   {
     id: "dentist",
-    title: "Dentist Appointment",
-    time: "09:00 AM",
+    title: "Dentist",
+    time: "09:00 - 11:00",
     icon: "🦷",
+    name: "Dr. Cameron williamson",
   },
   {
     id: "physio",
     title: "Physiotherapy Appointment",
-    time: "01:00 PM",
-    icon: "🧘",
+    time: "11:00 - 12:00",
+    icon: "💪",
+    name: "Dr. Kevin Djones",
   },
 ];
 

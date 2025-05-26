@@ -10,7 +10,7 @@ const UpcomingSchedule = () => {
 
       {upcomingData.map((dayBlock) => (
         <div key={dayBlock.day} className="day-group">
-          <h4 className="day-label">{dayBlock.day}</h4>
+          <h6 className="day-label">{dayBlock.day}</h6>
           <div className="cards-wrapper">
             {dayBlock.appointments.map((appt) => (
               <SimpleAppointmentCard

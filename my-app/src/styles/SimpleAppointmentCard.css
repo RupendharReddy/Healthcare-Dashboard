@@ -1,23 +1,27 @@
 .simple-appt-card {
   display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  background-color: #f9fafb;
-  padding: 1rem;
-  border-radius: 12px;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* gap: 0.8rem; */
+  background-color: rgb(223, 227, 248);
+  padding: 1.5rem;
+  border-radius: 30px;
   min-width: 180px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
-
+.simple-appt-details{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
 .simple-appt-card .icon {
-  font-size: 1.5rem;
+  /* font-size: 1rem; */
 }
 
-.simple-appt-card .details .title {
-  font-weight: 600;
+.simple-appt-title {
+  /* font-weight: 600; */
+  /* font-size: 1rem; */
+  margin-right: 25px;
 }
 
-.simple-appt-card .details .time {
-  font-size: 0.75rem;
-  color: #6b7280;
-}
