@@ -31,3 +31,13 @@
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 0.9rem ;
+  }
+  .day-label{
+    font-size: 0.9rem;
+  }
+}

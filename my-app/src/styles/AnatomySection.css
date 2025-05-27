@@ -48,3 +48,19 @@
   background-color: hsl(241.54deg 52.94% 43.33%);
   color: #fff;
 }
+
+
+@media screen and (max-width: 768px) {
+  .anatomy-image{
+    width: 95%;
+  }
+  .anatomy-section{
+    margin-top: 10px;
+  }
+  
+}
+@media screen and ( min-width: 1024px) and (max-width: 1280px) {
+  .anatomy-section{
+    width: 60%;
+  }
+}

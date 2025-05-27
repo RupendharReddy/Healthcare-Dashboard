@@ -25,3 +25,21 @@
   margin-right: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .simple-appt-card{
+    /* min-width: 100px; */
+    width: 100%;
+    min-width: 20px;
+  }
+  .simple-appt-details{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .simple-appt-title{
+    font-size: 14px;
+    /* margin-right: 10px; */
+  }
+  .simple-appt-card h5{
+    font-size: 10px;
+  }
+}

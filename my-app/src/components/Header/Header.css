@@ -8,7 +8,15 @@
   border-radius: 12px;
   /* margin-bottom: 20px; */
 }
-
+.header-logo{
+  display: none;
+    font-weight: 700;
+  font-size: 1.5rem;
+  color: #17c1e8;
+}
+.header-logo .highlight {
+  color:hsl(241.54deg 52.94% 43.33%);
+}
 .search-bar{
   width: 90%;
 }
@@ -31,7 +39,8 @@
   gap: 20px;
 } */
 
-.notification-btn{
+.notification-btn , .menu-toggle{
+  /* background-color: #f0f4ff; */
   /* background-color: #f0f4ff; */
   background-color: #fff;
   border: none;
@@ -40,6 +49,7 @@
   box-shadow : 0 0 20px 7px rgba(0, 0, 0, 0.05);
   /* font-size: 10px; */
   /* cursor: not-allowed; */
+  color: rgb(29, 29, 131);
 }
 .notification-btn img{
   width: 20px;
@@ -65,3 +75,93 @@
   height: 36px;
   border-radius: 50%;
 } */
+.mobile-header{
+  display: none;
+
+}
+.mobile-header .header-logo{
+  padding: 10px 0px 0px 10px;
+}
+.close{
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .header-logo{
+    display: block;
+  }
+  .header-icons{
+    display: none;
+  }
+  .mobile-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#fff;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+    /* border-radius: 12px; */
+    position: fixed;
+    box-shadow : 0 0 20px 7px rgba(0, 0, 0, 0.05);
+  }
+  .search-bar{
+    margin-top: 70px;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .mobile-header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 100%;
+  }
+  .menu-toggle{
+    /* box-shadow: none; */
+    /* margin-left: 5px; */
+    border: #fff;
+  }
+  .notification-btn{
+    /* padding: 8px 12px; */
+    margin-right: 10px;
+    /* background-color: #17c1e8; */
+  }
+  .notification-btn img{
+    width: 15px;
+    height: 15px;
+  }
+  button:focus{
+    outline: none;
+  }
+  .open{
+    display: block;
+    position: absolute;
+
+    z-index: 900;
+    width: 100%;
+    /* height: 100vh; */
+    /* margin-top: 60px; */
+    /* background-color: #f0f4ff; */
+    background-color: #fff;
+    box-shadow : 0 0 20px 7px rgba(0, 0, 0, 0.05);
+    animation: show 0.3s ease-in;
+  }
+  @keyframes show {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mobile-header{
+    width: 100%;
+    margin-top: -20px;
+  }
+}

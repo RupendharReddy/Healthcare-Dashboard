@@ -29,7 +29,7 @@ const upcomingData = [
         id: "neuro1",
         title: "Neurologist",
         time: "16:00 PM",
-        icon: "🧠",
+        icon: "👨‍⚕",
       },
     ],
   },

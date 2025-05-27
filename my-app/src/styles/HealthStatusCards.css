@@ -63,3 +63,7 @@
   color: hsl(242, 53%, 63%);
   cursor: pointer;
 }
+
+@media screen and (min-width: 1024px) and ( max-width: 1280px) {
+  
+}

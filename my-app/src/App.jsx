@@ -7,7 +7,7 @@ import './styles/global.css'
 const App = () => {
   return (
     <div className="app-container">
-      <Sidebar />
+      <Sidebar isOpen={false}/>
       <div className="main-area">
         {/* <Header /> */}
         <DashboardMainContent />

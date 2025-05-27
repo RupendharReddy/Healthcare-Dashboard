@@ -44,9 +44,10 @@ const iconMap = {
   )
 };
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   return (
-    <aside className="sidebar">
+    // <aside className="sidebar">
+    <aside className={`sidebar ${props.isOpen ? 'mobile' : ''}`}>
       <div className="logo">
         Health<span className="highlight">care.</span>
       </div>

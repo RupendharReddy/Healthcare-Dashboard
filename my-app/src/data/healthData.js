@@ -3,7 +3,7 @@ const healthData = [
     id: "lungs",
     label: "Lungs",
     date: "26 Oct 2021",
-    statusPercent: 30,
+    statusPercent: 50,
     color: "hsl(0.57deg 43.09% 48.24%)", // red
     icon: "🫁",
   },
@@ -19,7 +19,7 @@ const healthData = [
     id: "bone",
     label: "Bone",
     date: "26 Oct 2021",
-    statusPercent: 40,
+    statusPercent: 70,
     color: "hsl(11.63deg 100% 68.63%)", // orange
     icon: "🦴",
   },

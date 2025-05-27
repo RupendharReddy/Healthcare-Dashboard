@@ -1,21 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
+import Sidebar from '../Sidebar/Sidebar';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleSidebar = () => setIsOpen(!isOpen);
+
   return (
     <header className="header">
-      {/* <div className="logo">Health<span className="highlight">care.</span></div> */}
+      <div className='mobile-header'>
+        <div className="header-logo">Health<span className="highlight">care.</span></div>
+        {/* add menu icon here and handle toggling the sidebar to open <sidebar />*/}
+        <div>
+          <button className="notification-btn" disabled><img src="https://img.icons8.com/?size=100&id=83193&format=png&color=228BE6" alt='notification'></img></button>
+          <button className="menu-toggle" onClick={toggleSidebar}>
+            {isOpen ? '✕' : '☰'}
+          </button>
+          
+        </div>
+      </div>
+        <div className={`${isOpen ? 'open' : ''}`}>
+          {isOpen && <Sidebar isOpen={isOpen}/>}
+        </div>
       <div className="search-bar">
         <input type="text" placeholder="🔍 Search" disabled />
       </div>
       <div className="header-icons">
         <button className="notification-btn" disabled><img src="https://img.icons8.com/?size=100&id=83193&format=png&color=228BE6" alt='notification'></img></button>
-        
-        {/* <div className="user-profile">
-          <img src="/assets/avatar-placeholder.png" alt="User Avatar" />
-          <span>Dr. John</span>
-        </div>
-        <button className="add-btn">＋</button> */}
       </div>
     </header>
   )

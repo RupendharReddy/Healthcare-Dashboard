@@ -25,11 +25,16 @@ const DashboardMainContent = () => {
             <AnatomySection />
             <HealthStatusCards />
           </div>
-      <ActivityFeed />
+          <div className="pc">
+            <ActivityFeed />
+          </div>
         </div>
         <div className="overview-right">
           <CalendarView />
           {/* <UpcomingSchedule /> */}
+          <div className="mobile">
+            <ActivityFeed />
+          </div>
         </div>
       </div>
 
