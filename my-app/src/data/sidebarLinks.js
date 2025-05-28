@@ -13,6 +13,3 @@ export const toolLinks = [
   { name: "Support", icon: "support_agent" },
 ];
 
-export const settingLink = [
-  { name: "Setting", icon: "settings" },
-];
