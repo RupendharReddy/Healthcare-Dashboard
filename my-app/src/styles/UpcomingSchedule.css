@@ -1,11 +1,7 @@
 .upcoming-schedule {
-  /* background-color: white; */
-  /* color: hsl(246deg 32.89% 29.8%); */
   padding: 1.5rem 1.5rem 1.5rem 0rem;
   border-radius: 16px;
   margin-bottom: 0%;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
-  /* margin-top: 2rem; */
 }
 
 .section-title {
@@ -32,12 +28,11 @@
   flex-wrap: wrap;
 }
 
-
 @media screen and (max-width: 768px) {
   .section-title {
-    font-size: 0.9rem ;
+    font-size: 0.9rem;
   }
-  .day-label{
+  .day-label {
     font-size: 0.9rem;
   }
 }

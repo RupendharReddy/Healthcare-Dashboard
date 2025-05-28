@@ -1,6 +1,6 @@
-import React from "react";
 import "../../styles/SimpleAppointmentCard.css";
 
+// Simple Appointment Card Component to display appointment card
 const SimpleAppointmentCard = ({ title, time, icon }) => {
   return (
     <div className="simple-appt-card">
@@ -8,7 +8,7 @@ const SimpleAppointmentCard = ({ title, time, icon }) => {
         <div className="simple-appt-title">{title}</div>
         <span >{icon}</span>
       </div>
-        <h5>{time}</h5>
+      <h5>{time}</h5>
     </div>
   );
 };

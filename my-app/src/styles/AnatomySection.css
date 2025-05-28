@@ -1,13 +1,7 @@
 .anatomy-section {
   position: relative;
-  /* width: ; */
   height: 400px;
-  /* background-color: white; */
-  /* background-color: #f0f4ff; */
-  /* background-color: red; */
-  /* background-color: #f0f4ff; */
   border-radius: 20px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
   padding: 0px 0px 0px 1rem;
   align-content: center;
   justify-content: center;
@@ -17,13 +11,11 @@
   width: 90%;
   height: 100%;
   border-radius: 15px;
-  /* background-color: #f0f4ff; */
   background-color: hsl(213.33deg 100% 98.24%);
   border: none;
   margin: 0;
 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-
 }
 
 .marker {
@@ -37,30 +29,27 @@
 }
 
 .marker.healthy {
-  /* background-color: #00c8ff; */
   background-color: hsl(183.53deg 99.17% 47.06%);
   color: hsl(242, 53%, 63%);
 }
 .marker.unhealthy {
   background-color: #ff4d4f;
 }
-#marker-heart{
+#marker-heart {
   background-color: hsl(241.54deg 52.94% 43.33%);
   color: #fff;
 }
 
-
 @media screen and (max-width: 768px) {
-  .anatomy-image{
+  .anatomy-image {
     width: 95%;
   }
-  .anatomy-section{
+  .anatomy-section {
     margin-top: 10px;
   }
-  
 }
-@media screen and ( min-width: 1024px) and (max-width: 1280px) {
-  .anatomy-section{
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .anatomy-section {
     width: 60%;
   }
 }

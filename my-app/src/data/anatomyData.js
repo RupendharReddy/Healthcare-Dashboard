@@ -1,3 +1,5 @@
+// Data for Anatomy Section markers
+
 const anatomyData = [
   {
     id: "heart",

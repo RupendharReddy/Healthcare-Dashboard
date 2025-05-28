@@ -20,7 +20,7 @@
   height: 33px;
   padding-top: 5px;
   border-radius: 8px;
-  background-color:aqua;
+  background-color: aqua;
 }
 .add-btn {
   background-color: #f0f4ff;
@@ -28,11 +28,11 @@
   padding: 0px 5px 2px 5px;
   border-radius: 8px;
   font-size: 1.5rem;
+  color: #fff;
   background-color: hsl(241.54deg 52.94% 43.33%);
-  /* cursor: not-allowed; */
 }
 
-.calendar-header{
+.calendar-header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -52,56 +52,47 @@
 }
 
 .calendar-cell {
-  /* border: 1px solid #e5e7eb; */
   border-radius: 8px;
   padding: 0.5rem;
   text-align: center;
 }
 
-.day{
+.day {
   font-size: 12px;
 }
 
-#Tue{
-  /* border: 2px solid red; */
-    background-color: hsl(216.67deg 100% 96.47%);
+#Tue {
+  background-color: hsl(216.67deg 100% 96.47%);
 }
-#Sun{
+#Sun {
   color: hsl(241, 46%, 78%);
 }
 .calendar-cell .date {
-  /* font-weight: 650; */
   color: hsl(241.54deg 52.94% 43.33%);
   font-size: 20px;
   margin-bottom: 0.4rem;
 }
 
-.slot , .marked{
+.slot,
+.marked {
   font-size: 0.65rem;
-  /* background-color: #dbeafe; */
   padding: 0.2rem 0.4rem;
   border-radius: 8px;
   margin: 5px auto;
   width: fit-content;
 }
-#Tue .marked{
+#Tue .marked {
   background-color: hsl(241.54deg 52.94% 43.33%);
   color: #dad6d6;
   padding: 0.2rem 0.6rem;
 }
-.marked{
+.marked {
   color: #efecec;
   background-color: hsl(236deg 37.82% 76.67%);
 }
-#Sat .marked{
-  
+#Sat .marked {
 }
-.dash{
-  /* height: 20px; */
-  /* width: 28px; */
-  /* margin-top:-12px; */
-  /* margin-bottom: 8px; */
-  /* padding-bottom: 20px; */
+.dash {
   font-size: 13px;
   opacity: 0.3;
 }
@@ -111,22 +102,21 @@
   gap: 0.8rem;
 }
 
-.appt-details{
-  font-weight:700;
+.appt-details {
+  font-weight: 700;
 }
 
-#dentist{
+#dentist {
   width: 40%;
   padding: 20px;
-  border-radius:30px;
+  border-radius: 30px;
   color: #ece8e8;
-  /* font-weight: 550; */
-    background-color: hsl(241.54deg 52.94% 43.33%);
+  background-color: hsl(241.54deg 52.94% 43.33%);
 }
-#physio{
+#physio {
   width: 60%;
   padding: 20px;
-  border-radius:30px;
+  border-radius: 30px;
   color: hsl(246deg 32.89% 29.8%);
   background-color: hsl(230.4deg 64.1% 92.35%);
 }
@@ -144,7 +134,6 @@
 }
 
 .appt-details .title {
-  /* font-weight: 600; */
   font-size: 14px;
   display: flex;
   justify-content: space-between;
@@ -155,10 +144,8 @@
   color: #555;
 }
 
-
-
 @media screen and (max-width: 768px) {
-  .calendar-view{
+  .calendar-view {
     margin-top: 10px;
   }
   .calendar-grid {
@@ -168,42 +155,36 @@
     margin-bottom: 1.7rem;
     margin-left: -10px;
   }
-  .slot , .marked{
+  .slot,
+  .marked {
     font-size: 0.55rem;
-    /* background-color: #dbeafe; */
     padding: 0.2rem 0rem;
     border-radius: 8px;
     margin: 10px auto;
     display: flex;
     justify-content: center;
-    /* align-content: center; */
-    /* width: fit-content; */
   }
-  #Tue .marked{
+  #Tue .marked {
     padding: 0.2rem 0rem 0.2rem 0rem;
   }
-  .marked{
+  .marked {
     margin-left: -1px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
     width: 30px;
     border-radius: 5px;
   }
-  .dash{
+  .dash {
     font-size: 7px;
   }
-  #dentist{
+  #dentist {
     width: 50%;
   }
-  #physio{
-    /* width: 65%; */
-  }
-  .appt-details , .appt-details h3{
-    font-size:12px ;
+  .appt-details,
+  .appt-details h3 {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  .calendar-view{
+  .calendar-view {
     margin-top: 20px;
   }
   .calendar-grid {
@@ -211,41 +192,31 @@
     grid-template-columns: repeat(7, minmax(62px, 0.5fr));
     gap: 0.3rem;
     margin-bottom: 1.7rem;
-    /* margin-left: -10px; */
   }
-  .slot , .marked{
+  .slot,
+  .marked {
     font-size: 0.55rem;
-    /* background-color: #dbeafe; */
     padding: 0.2rem 0rem;
     border-radius: 8px;
     margin: 10px auto;
     display: flex;
     justify-content: center;
-    /* align-content: center; */
-    /* width: fit-content; */
   }
-  #Tue .marked{
+  #Tue .marked {
     padding: 0.2rem 0rem 0.2rem 0rem;
   }
-  .marked{
-    /* margin-left: -1px; */
-    /* padding-left: 10px;
-    padding-right: 10px; */
+  .marked {
     width: 30px;
     border-radius: 5px;
   }
-  .dash{
+  .dash {
     font-size: 7px;
   }
-  #dentist{
+  #dentist {
     width: 50%;
   }
-  #physio{
-    /* width: 65%; */
+  .appt-details,
+  .appt-details h3 {
+    font-size: 12px;
   }
-  .appt-details , .appt-details h3{
-    font-size:12px ;
-  }
-
-  
 }

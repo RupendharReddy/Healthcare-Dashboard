@@ -2,9 +2,6 @@
   margin-left: 240px;
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
-  /* padding: 0 2rem 2rem 2rem; */
-  /* flex: 1; */
 }
 
 .overview-top,
@@ -12,36 +9,31 @@
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  /* flex-wrap: wrap; */
 }
-.overview{
+.overview {
   display: flex;
   flex-direction: row;
 }
-.overview-header{
+.overview-header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  color:hsl(241.54deg 52.94% 43.33%);
+  color: hsl(241.54deg 52.94% 43.33%);
   padding: 0px 10px 5px 10px;
 }
-.overview-header h5{
-    color: hsl(242, 53%, 63%);
+.overview-header h5 {
+  color: hsl(242, 53%, 63%);
 }
-.overview-left, 
+.overview-left,
 .overview-right {
-  /* gap: 2rem; */
   width: 50%;
   padding: 10px;
 }
-.mobile{
+.mobile {
   display: none;
 }
 
 @media screen and (max-width: 1024px) {
-  *{
-    /* border: 1px solid red; */
-  }
   .dashboard-main {
     margin-left: 0px;
   }
@@ -49,40 +41,41 @@
   .overview-bottom {
     flex-direction: column;
   }
-  .overview{
+  .overview {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .overview-left, 
+  .overview-left,
   .overview-right {
-    width:95%;
+    width: 95%;
     padding: 0px;
   }
-}
-
-@media screen and (min-width: 768px) and ( max-width: 1024px) {
-  .overview{
-    width: 100%;
-  }
-  .overview-top{
-    flex-direction: row;
-  }
-  .pc{
+  .pc {
     display: none;
   }
-  .mobile{
+  .mobile {
     display: block;
   }
 }
 
-@media screen and ( min-width: 1024px) and (max-width: 1280px) {
-  .overview{
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .overview {
     width: 100%;
   }
-  .overview-top{
-    /* flex-direction: column; */
+  .overview-top {
+    flex-direction: row;
   }
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
 
-  
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .overview {
+    width: 100%;
+  }
 }

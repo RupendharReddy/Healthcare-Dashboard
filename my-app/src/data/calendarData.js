@@ -1,3 +1,5 @@
+// data for calendar and appointments marking
+
 const calendarData = [
   { day:"Mon",date: "25", slots: ["10:00", "11:00", "12:00"] , appointmentTiming: "-"},
   { day:"Tue",date: "26", slots: ["08:00", "09:00", "10:00"], appointmentTiming: "09:00" },

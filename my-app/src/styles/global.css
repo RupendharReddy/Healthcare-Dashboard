@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  /* background-color: #f6f9ff; */
   background-color: #fff;
   color: #1a1a1a;
   overflow-x: hidden;
@@ -23,23 +22,11 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  /* background-color: #f6f9ff; */
 }
 
 @media screen and (max-width: 768px) {
   .main-area {
     padding: 0px;
-  }
-  
-}
-@media screen and (max-width: 1024px) {
-  .main-area {
-    /* padding: 0px; */
-    /* border: 5px solid green; */
-    /* width: 100%; */
-  }
-  .app-container{
-    /* border: 5px solid yellow; */
   }
   
 }

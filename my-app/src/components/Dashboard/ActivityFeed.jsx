@@ -1,10 +1,10 @@
-import React from "react";
 import "../../styles/ActivityFeed.css";
 
 const weekdays = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
 
-const barHeights = [50, 80, 40, 65, 90, 60, 30]; // mock static heights
+const barHeights = [50, 80, 40, 65, 90, 60, 30];
 
+// Activity Feed Component to display weekly activity feed
 const ActivityFeed = () => {
   return (
     <div className="activity-feed">

@@ -1,8 +1,8 @@
-import React from "react";
 import upcomingData from "../../data/upcomingAppointments";
 import SimpleAppointmentCard from "../shared/SimpleAppointmentCard";
 import "../../styles/UpcomingSchedule.css";
 
+// Upcoming Schedule Component to display upcoming schedule
 const UpcomingSchedule = () => {
   return (
     <div className="upcoming-schedule">

@@ -1,22 +1,23 @@
-import React from "react";
 import calendarData from "../../data/calendarData";
 import appointmentCards from "../../data/calendarAppointments";
 import "../../styles/CalendarView.css";
 import UpcomingSchedule from "./UpcomingSchedule";
 import avatar from "../../assets/avatar.png";
 
+// Calendar View Component to display calendar and appointments
 const CalendarView = () => {
   return (
     <div className="calendar-view">
-        <div className="user-profile">
-          <img src={avatar} alt="User Avatar"/>
-          <button className="add-btn">＋</button>
-        </div><br/>
+      <div className="user-profile">
+        <img src={avatar} alt="User Avatar" />
+        <button className="add-btn">＋</button>
+      </div>
+      <br />
       <div className="calendar-header">
         <h3>October 2021</h3>
         <h5>◀ ▶</h5>
       </div>
-
+      {/* Calendar Grid for displaying calendar and markning appointments */}
       <div className="calendar-grid">
         {calendarData.map((day) => (
           <div key={day.date} className="calendar-cell" id={day.day}>
@@ -30,11 +31,10 @@ const CalendarView = () => {
                 {slot === "" ? <h2 className="dash">➖</h2> : slot}
               </div>
             ))}
-
           </div>
         ))}
       </div>
-
+      {/* Calendar Appointments to display appointments */}
       <div className="calendar-appointments">
         {appointmentCards.map((appt) => (
           <div key={appt.id} id={appt.id}>
@@ -49,7 +49,7 @@ const CalendarView = () => {
           </div>
         ))}
       </div>
-      <UpcomingSchedule/>
+      <UpcomingSchedule />
     </div>
   );
 };

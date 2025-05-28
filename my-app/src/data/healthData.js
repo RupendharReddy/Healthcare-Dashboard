@@ -1,3 +1,5 @@
+// Data for Health Status Cards
+
 const healthData = [
   {
     id: "lungs",

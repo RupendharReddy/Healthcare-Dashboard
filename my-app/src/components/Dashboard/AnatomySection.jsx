@@ -1,13 +1,12 @@
-import React from "react";
 import anatomyData from "../../data/anatomyData";
-import "../../styles/AnatomySection.css"; 
-import anatomy from "../../assets/anatomy.gif"
+import "../../styles/AnatomySection.css";
+import anatomy from "../../assets/anatomy.gif";
 // import anatomy from "../../assets/anatomy.png"
 
+// Anatomy Section Component to display anatomy image and markers
 const AnatomySection = () => {
   return (
     <div className="anatomy-section">
-      
       <img
         src={anatomy}
         alt="Anatomical human illustration"
