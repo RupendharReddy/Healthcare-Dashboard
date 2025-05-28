@@ -29,10 +29,6 @@
   width: 50%;
   padding: 10px;
 }
-.mobile {
-  display: none;
-}
-
 @media screen and (max-width: 1024px) {
   .dashboard-main {
     margin-left: 0px;
@@ -51,12 +47,6 @@
     width: 95%;
     padding: 0px;
   }
-  .pc {
-    display: none;
-  }
-  .mobile {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -65,12 +55,6 @@
   }
   .overview-top {
     flex-direction: row;
-  }
-  .pc {
-    display: none;
-  }
-  .mobile {
-    display: block;
   }
 }
 

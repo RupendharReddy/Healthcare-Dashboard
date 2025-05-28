@@ -32,15 +32,10 @@ const DashboardMainContent = () => {
             <AnatomySection />
             <HealthStatusCards />
           </div>
-          <div className="pc">
-            <ActivityFeed />
-          </div>
+          <ActivityFeed />
         </div>
         <div className="overview-right">
           <CalendarView />
-          <div className="mobile">
-            <ActivityFeed />
-          </div>
         </div>
       </div>
 
