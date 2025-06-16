@@ -1,6 +1,6 @@
 # Healthcare-Dashboard
 Fitpeo Company Web Developer Assignment: "Healthcare Dashboard (React + vite - Static Display)"
-
+Click on the link view assignment : https://healthcare-dashboard-seven-omega.vercel.app/
 
 # Healthcare Dashboard UI (Static React Project)
 
